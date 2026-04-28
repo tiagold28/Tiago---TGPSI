@@ -1,0 +1,12 @@
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\bin\Debug\Hotel Luxe.exe.config
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\bin\Debug\Hotel Luxe.exe
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\bin\Debug\Hotel Luxe.pdb
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.AssemblyReference.cache
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form1.resources
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Properties.Resources.resources
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.GenerateResource.cache
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.CoreCompileInputs.cache
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.exe
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.pdb
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.exe.config
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form2.resources
