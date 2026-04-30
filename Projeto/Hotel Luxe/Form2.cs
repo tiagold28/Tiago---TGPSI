@@ -31,5 +31,45 @@ namespace Hotel_Luxe
         {
 
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+            if (!string.IsNullOrEmpty(textBox1.Text))
+            {
+                label2.Visible = false;
+            }
+            else
+            {
+                label2.Visible = true;
+            }
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
