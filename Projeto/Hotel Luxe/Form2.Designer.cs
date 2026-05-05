@@ -65,7 +65,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(12, 9);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(249, 13);
+            this.textBox1.Size = new System.Drawing.Size(224, 13);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -101,6 +101,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Entrar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -146,13 +147,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(237, 38);
             this.panel2.TabIndex = 11;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.textBox2);
-            this.panel3.Location = new System.Drawing.Point(811, 357);
+            this.panel3.Location = new System.Drawing.Point(811, 352);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(237, 38);
             this.panel3.TabIndex = 12;
@@ -166,16 +168,17 @@
             this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "Password";
-            this.label3.Click += new System.EventHandler(this.label3_Click_1);
+            this.label3.Click += new System.EventHandler(this.label3_Click_2);
             // 
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(12, 11);
+            this.textBox2.Location = new System.Drawing.Point(12, 9);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(249, 13);
+            this.textBox2.Size = new System.Drawing.Size(224, 13);
             this.textBox2.TabIndex = 3;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
             // 
             // Form2
             // 

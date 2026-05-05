@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Hotel_Luxe
 {
@@ -19,7 +20,7 @@ namespace Hotel_Luxe
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+       
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -70,6 +71,45 @@ namespace Hotel_Luxe
         private void label3_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void label3_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(textBox2.Text))
+            {
+                label3.Visible = false;
+            }
+            else
+            {
+                label3.Visible = true;
+            }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string email = textBox1.Text.Trim().ToLower();
+
+            if (!email.EndsWith("@gmail.com"))
+            {
+                MessageBox.Show("Por favor, insira um email @gmail.com", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            MessageBox.Show("Email válido!, Login efetuado!");
+
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
     }
 }
