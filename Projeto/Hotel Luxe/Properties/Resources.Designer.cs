@@ -63,6 +63,76 @@ namespace Hotel_Luxe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_estrela {
+            get {
+                object obj = ResourceManager.GetObject("1 estrela", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1HeCa {
+            get {
+                object obj = ResourceManager.GetObject("1HeCa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2_estrelas {
+            get {
+                object obj = ResourceManager.GetObject("2 estrelas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3_estrelas {
+            get {
+                object obj = ResourceManager.GetObject("3 estrelas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_estrelas {
+            get {
+                object obj = ResourceManager.GetObject("4 estrelas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5_estrelas {
+            get {
+                object obj = ResourceManager.GetObject("5 estrelas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_ecrã_2026_05_07_104022 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de ecrã 2026-05-07 104022", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_28_04_2026__09_13_25 {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image 28_04_2026, 09_13_25", resourceCulture);
@@ -76,6 +146,66 @@ namespace Hotel_Luxe.Properties {
         internal static System.Drawing.Bitmap ChatGPT_Image_28_04_2026__09_13_25_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT_Image_28_04_2026__09_13_25-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_7_05_2026__10_50_35 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 7_05_2026, 10_50_35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_7_05_2026__10_50_351 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 7_05_2026, 10_50_351", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HPqLT {
+            get {
+                object obj = ResourceManager.GetObject("HPqLT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("image-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("image-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap N9kUi {
+            get {
+                object obj = ResourceManager.GetObject("N9kUi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -99,5 +99,28 @@ namespace Hotel_Luxe
                 label6.Visible = true;
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                textBox5.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                textBox5.UseSystemPasswordChar = true;
+
+            }
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

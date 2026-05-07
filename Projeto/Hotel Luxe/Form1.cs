@@ -20,6 +20,7 @@ namespace Hotel_Luxe
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             Form2 form = new Form2();
             form.Show();
             this.Hide();
@@ -27,7 +28,7 @@ namespace Hotel_Luxe
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
+
         }
     }
 }

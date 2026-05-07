@@ -70,6 +70,12 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +121,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ChatGPT_Image_28_04_2026__09_13_25-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 estrelas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 estrelas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 estrelas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 estrelas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 estrela.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1HeCa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HPqLT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N9kUi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de ecrã 2026-05-07 104022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 7_05_2026, 10_50_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 7_05_2026, 10_50_351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
