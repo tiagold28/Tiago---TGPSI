@@ -12,9 +12,19 @@ namespace Hotel_Luxe
 {
     public partial class Form5 : Form
     {
+        int quartoSelecionado = 0;
+
         public Form5()
         {
             InitializeComponent();
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            quartoSelecionado = 1;
+
+            pictureBox1.BackColor = Color.Gold;
         }
     }
 }
