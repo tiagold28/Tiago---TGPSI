@@ -161,5 +161,26 @@
   <ItemGroup>
     <None Include="Resources\image-removebg-preview1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deluxe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\familiar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quarto de animais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quarto para animais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1778754758975-019e260b-5c30-7879-8dba-faba6abb19fe.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duplo superior cama individual.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
