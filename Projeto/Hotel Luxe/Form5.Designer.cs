@@ -35,6 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -129,13 +130,27 @@
             this.label6.TabIndex = 19;
             this.label6.Text = "       Quarto \r\nduplo superior";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.label7.Location = new System.Drawing.Point(1144, 499);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(146, 29);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Quarto triplo";
+            // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(1115, 164);
+            this.pictureBox7.Image = global::Hotel_Luxe.Properties.Resources.quarto_triplo_3;
+            this.pictureBox7.Location = new System.Drawing.Point(1111, 164);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(213, 306);
+            this.pictureBox7.Size = new System.Drawing.Size(217, 306);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox6
             // 
@@ -146,16 +161,18 @@
             this.pictureBox6.Size = new System.Drawing.Size(156, 142);
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Hotel_Luxe.Properties.Resources.deluxe;
-            this.pictureBox5.Location = new System.Drawing.Point(450, 164);
+            this.pictureBox5.Location = new System.Drawing.Point(451, 164);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(213, 306);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -177,9 +194,11 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Hotel_Luxe.Properties.Resources.standard;
             this.pictureBox1.Location = new System.Drawing.Point(12, 164);
             this.pictureBox1.Name = "pictureBox1";
@@ -199,6 +218,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // Form5
             // 
@@ -206,6 +226,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(52)))));
             this.ClientSize = new System.Drawing.Size(1340, 723);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -249,5 +270,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

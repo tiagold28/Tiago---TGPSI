@@ -273,6 +273,16 @@ namespace Hotel_Luxe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap quarto_triplo_3 {
+            get {
+                object obj = ResourceManager.GetObject("quarto triplo 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap standard {
             get {
                 object obj = ResourceManager.GetObject("standard", resourceCulture);

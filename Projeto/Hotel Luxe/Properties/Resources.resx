@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="duplo superior cama individual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duplo superior cama individual.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="5 estrelas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5 estrelas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1 estrela" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1 estrela.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,20 +163,14 @@
   <data name="ChatGPT Image 28_04_2026, 09_13_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image 28_04_2026, 09_13_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1778754758975-019e260b-5c30-7879-8dba-faba6abb19fe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1778754758975-019e260b-5c30-7879-8dba-faba6abb19fe.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="2 estrelas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2 estrelas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura de ecrã 2026-05-07 104022" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de ecrã 2026-05-07 104022.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChatGPT Image 7_05_2026, 10_50_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image 7_05_2026, 10_50_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1778754758975-019e260b-5c30-7879-8dba-faba6abb19fe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1778754758975-019e260b-5c30-7879-8dba-faba6abb19fe.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="deluxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deluxe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,10 +178,13 @@
   <data name="Quarto de animais" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Quarto de animais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ChatGPT Image 7_05_2026, 10_50_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 7_05_2026, 10_50_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="standard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\standard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="duplo superior cama individual" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\duplo superior cama individual.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="quarto triplo 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quarto triplo 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
