@@ -97,15 +97,28 @@ namespace Hotel_Luxe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string email = textBox1.Text.Trim().ToLower();
 
-            if (!email.EndsWith("@gmail.com"))
+            string email = textBox1.Text.Trim();
+            string password = textBox2.Text;
+
+            bool emailValido = System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@gmail\.com$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+
+            if (!emailValido)
             {
-                MessageBox.Show("Por favor, insira um email @gmail.com", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Introduz um email válido no formato exemplo@gmail.com.", "Email inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox1.Focus();
                 return;
             }
 
-            MessageBox.Show("Email válido!, Login efetuado!");
+            // Validar password
+            if (string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Por favor, introduz a tua password.", "Password em falta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox2.Focus();
+                return;
+            }
+
+            MessageBox.Show("Login com sucesso!");
 
             Form4 form4 = new Form4();
             form4.Show();

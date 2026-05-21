@@ -12,19 +12,21 @@ namespace Hotel_Luxe
 {
     public partial class Form4 : Form
     {
+        int hotelSelecionado = 0;
+
         public Form4()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e) 
         {
-
+            
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -37,6 +39,21 @@ namespace Hotel_Luxe
             Form5 form5 = new Form5();
             form5.Show();
             this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

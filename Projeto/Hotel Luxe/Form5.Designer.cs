@@ -66,6 +66,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(584, 592);
             this.button1.Name = "button1";
@@ -143,6 +144,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::Hotel_Luxe.Properties.Resources.quarto_triplo_3;
             this.pictureBox7.Location = new System.Drawing.Point(1111, 164);
             this.pictureBox7.Name = "pictureBox7";
@@ -165,6 +167,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Hotel_Luxe.Properties.Resources.deluxe;
             this.pictureBox5.Location = new System.Drawing.Point(451, 164);
             this.pictureBox5.Name = "pictureBox5";
@@ -176,6 +179,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Hotel_Luxe.Properties.Resources.duplo_superior_cama_individual;
             this.pictureBox4.Location = new System.Drawing.Point(892, 164);
             this.pictureBox4.Name = "pictureBox4";
@@ -187,6 +191,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Hotel_Luxe.Properties.Resources.familiar;
             this.pictureBox2.Location = new System.Drawing.Point(231, 164);
             this.pictureBox2.Name = "pictureBox2";
@@ -211,6 +216,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::Hotel_Luxe.Properties.Resources._1778754758975_019e260b_5c30_7879_8dba_faba6abb19fe;
             this.pictureBox3.Location = new System.Drawing.Point(671, 164);
             this.pictureBox3.Name = "pictureBox3";

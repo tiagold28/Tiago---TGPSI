@@ -128,6 +128,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Hotel_Luxe.Properties.Resources._5_estrelas;
             this.pictureBox5.Location = new System.Drawing.Point(1078, 183);
             this.pictureBox5.Name = "pictureBox5";
@@ -135,9 +136,11 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Hotel_Luxe.Properties.Resources._4_estrelas;
             this.pictureBox4.Location = new System.Drawing.Point(810, 183);
             this.pictureBox4.Name = "pictureBox4";
@@ -149,6 +152,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::Hotel_Luxe.Properties.Resources._3_estrelas;
             this.pictureBox3.Location = new System.Drawing.Point(543, 183);
             this.pictureBox3.Name = "pictureBox3";
@@ -156,9 +160,11 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Hotel_Luxe.Properties.Resources._2_estrelas;
             this.pictureBox2.Location = new System.Drawing.Point(278, 183);
             this.pictureBox2.Name = "pictureBox2";
@@ -166,9 +172,11 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Hotel_Luxe.Properties.Resources._1_estrela;
             this.pictureBox1.Location = new System.Drawing.Point(12, 183);
             this.pictureBox1.Name = "pictureBox1";
@@ -181,6 +189,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(585, 593);

@@ -17,7 +17,6 @@ namespace Hotel_Luxe
         public Form5()
         {
             InitializeComponent();
-            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
