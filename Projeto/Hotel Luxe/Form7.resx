@@ -117,4 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Perfeito para momentos em família, com espaço amplo e 
+ambiente acolhedor para uma estadia confortável.
+
+      Capacidade: Ideal para famílias até 4 pessoas.
+
+      Espaço: Área confortável para descanso e convívio.
+
+      Comodidade: Ambiente tranquilo e climatizado.
+
+      Praticidade: Espaço para bagagens e arrumação.
+
+      Privacidade: Casa de banho privativa totalmente equipada.</value>
+  </data>
 </root>

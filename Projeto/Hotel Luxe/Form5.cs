@@ -71,7 +71,9 @@ namespace Hotel_Luxe
             }
             else if (quartoSelecionado == 2)
             {
-                
+                Form7 form7 = new Form7();
+                form7.Show();
+                this.Hide();
             }
             else if (quartoSelecionado == 3)
             {

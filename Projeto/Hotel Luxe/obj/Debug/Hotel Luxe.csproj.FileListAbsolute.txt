@@ -17,3 +17,4 @@ C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\bin\Debug\Guna.UI2.dll
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.Up2Date
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form7.resources
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form8.resources

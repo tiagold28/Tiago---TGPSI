@@ -41,9 +41,7 @@ namespace Hotel_Luxe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form7 form7 = new Form7();
-            form7.Show();
-            this.Hide();
+               
         }
     }
 }
