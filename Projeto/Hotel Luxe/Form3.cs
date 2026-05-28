@@ -40,42 +40,6 @@ namespace Hotel_Luxe
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string nome = textBox3.Text.Trim();
-            string email = textBox4.Text.Trim();
-            string password = textBox5.Text;
-
-            if (string.IsNullOrWhiteSpace(nome))
-            {
-                MessageBox.Show("Por favor, introduz o teu nome.", "Nome em falta",
-                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox3.Focus();
-                return;
-            }
-
-            bool emailValido = System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@gmail\.com$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-
-            if (!emailValido)
-            {
-                MessageBox.Show("Introduz um email válido no formato exemplo@gmail.com.", "Email inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox4.Focus();
-                return;
-            }
-
-            if (string.IsNullOrEmpty(password))
-            {
-                MessageBox.Show("Por favor, introduz a tua password.", "Password em falta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox5.Focus();
-                return;
-            }
-
-            Form4 form4 = new Form4();
-            form4.Show();
-            this.Hide();
-
-        }
-
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
@@ -144,6 +108,41 @@ namespace Hotel_Luxe
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            string nome = textBox3.Text.Trim();
+            string email = textBox4.Text.Trim();
+            string password = textBox5.Text;
+
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                MessageBox.Show("Por favor, introduz o teu nome.", "Nome em falta",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox3.Focus();
+                return;
+            }
+
+            bool emailValido = System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@gmail\.com$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+
+            if (!emailValido)
+            {
+                MessageBox.Show("Introduz um email válido no formato exemplo@gmail.com.", "Email inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox4.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Por favor, introduz a tua password.", "Password em falta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox5.Focus();
+                return;
+            }
+
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
     }
 }

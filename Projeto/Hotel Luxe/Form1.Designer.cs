@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // label3
@@ -42,19 +42,26 @@
             this.label3.Size = new System.Drawing.Size(0, 31);
             this.label3.TabIndex = 3;
             // 
-            // button1
+            // guna2Button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(510, 550);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(279, 68);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Entrar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(132)))), ((int)(((byte)(79)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 18F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.IndicateFocus = true;
+            this.guna2Button1.Location = new System.Drawing.Point(526, 542);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(213, 77);
+            this.guna2Button1.TabIndex = 4;
+            this.guna2Button1.Text = "Entrar";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Form1
             // 
@@ -64,7 +71,7 @@
             this.BackgroundImage = global::Hotel_Luxe.Properties.Resources.N9kUi;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1269, 696);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label3);
             this.DoubleBuffered = true;
             this.Name = "Form1";
@@ -77,7 +84,7 @@
 
         #endregion
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
 

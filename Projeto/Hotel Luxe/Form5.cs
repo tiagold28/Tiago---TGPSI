@@ -21,9 +21,8 @@ namespace Hotel_Luxe
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (quartoSelecionado != 1) { 
-            
-                
+            if (quartoSelecionado != 1) 
+            { 
                 quartoSelecionado = 1;
                 pictureBox1.BorderStyle = BorderStyle.Fixed3D;
                 pictureBox2.BorderStyle = BorderStyle.None;
@@ -44,8 +43,6 @@ namespace Hotel_Luxe
         {
             if (quartoSelecionado != 5)
             {
-
-
                 quartoSelecionado = 5;
                 pictureBox1.BorderStyle = BorderStyle.None;
                 pictureBox2.BorderStyle = BorderStyle.None;
@@ -63,42 +60,13 @@ namespace Hotel_Luxe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (quartoSelecionado == 1) 
-            { 
-                Form6 form6 = new Form6();
-                form6.Show();
-                this.Hide();
-            }
-            else if (quartoSelecionado == 2)
-            {
-                Form7 form7 = new Form7();
-                form7.Show();
-                this.Hide();
-            }
-            else if (quartoSelecionado == 3)
-            {
-               
-            }
-            else if (quartoSelecionado == 4)
-            {
-                
-            }
-            else if (quartoSelecionado == 5)
-            {
-               
-            }
-            else if (quartoSelecionado == 6)
-            {
-               
-            }
+           
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             if (quartoSelecionado != 6)
             {
-
-
                 quartoSelecionado = 6;
                 pictureBox1.BorderStyle = BorderStyle.None;
                 pictureBox2.BorderStyle = BorderStyle.None;
@@ -118,8 +86,6 @@ namespace Hotel_Luxe
         {
             if (quartoSelecionado != 2)
             {
-
-
                 quartoSelecionado = 2;
                 pictureBox1.BorderStyle = BorderStyle.None;
                 pictureBox2.BorderStyle = BorderStyle.Fixed3D;
@@ -139,8 +105,6 @@ namespace Hotel_Luxe
         {
             if (quartoSelecionado != 3)
             {
-
-
                 quartoSelecionado = 3;
                 pictureBox1.BorderStyle = BorderStyle.None;
                 pictureBox2.BorderStyle = BorderStyle.None;
@@ -160,8 +124,6 @@ namespace Hotel_Luxe
         {
             if (quartoSelecionado != 4)
             {
-
-
                 quartoSelecionado = 4;
                 pictureBox1.BorderStyle = BorderStyle.None;
                 pictureBox2.BorderStyle = BorderStyle.None;
@@ -180,6 +142,49 @@ namespace Hotel_Luxe
         private void pictureBox6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (quartoSelecionado == 1)
+            {
+                Form6 form6 = new Form6();
+                form6.Show();
+                this.Hide();
+            }
+            else if (quartoSelecionado == 2)
+            {
+                Form7 form7 = new Form7();
+                form7.Show();
+                this.Hide();
+            }
+            else if (quartoSelecionado == 3)
+            {
+                Form8 form8 = new Form8();
+                form8.Show();
+                this.Hide();
+            }
+            else if (quartoSelecionado == 4)
+            {
+                Form9 form9 = new Form9();
+                form9.Show();
+                this.Hide();
+            }
+            else if (quartoSelecionado == 5)
+            {
+
+            }
+            else if (quartoSelecionado == 6)
+            {
+
+            }
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
     }
 }

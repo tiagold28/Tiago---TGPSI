@@ -95,9 +95,21 @@ namespace Hotel_Luxe
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBox1.Checked)
+            {
+                textBox2.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                textBox2.UseSystemPasswordChar = true;
 
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
             string email = textBox1.Text.Trim();
             string password = textBox2.Text;
 
@@ -123,19 +135,6 @@ namespace Hotel_Luxe
             Form4 form4 = new Form4();
             form4.Show();
             this.Hide();
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked)
-            {
-                textBox2.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                textBox2.UseSystemPasswordChar = true;
-
-            }
         }
     }
 }

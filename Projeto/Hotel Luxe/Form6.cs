@@ -27,13 +27,6 @@ namespace Hotel_Luxe
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form5 form5 = new Form5();
-            form5.Show();
-            this.Hide();
-        }
-
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -42,6 +35,13 @@ namespace Hotel_Luxe
         private void button1_Click(object sender, EventArgs e)
         {
                
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.Show();
+            this.Hide();
         }
     }
 }
