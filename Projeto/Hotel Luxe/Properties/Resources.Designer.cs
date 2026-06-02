@@ -203,6 +203,16 @@ namespace Hotel_Luxe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap elbruxo {
+            get {
+                object obj = ResourceManager.GetObject("elbruxo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap familiar {
             get {
                 object obj = ResourceManager.GetObject("familiar", resourceCulture);

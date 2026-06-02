@@ -136,5 +136,12 @@ namespace Hotel_Luxe
             form4.Show();
             this.Hide();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
     }
 }

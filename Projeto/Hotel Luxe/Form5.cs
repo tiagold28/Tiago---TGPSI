@@ -17,10 +17,20 @@ namespace Hotel_Luxe
         public Form5()
         {
             InitializeComponent();
+            /*int hotel = Form4.hotelSelecionado;
+            if (hotel == 1)
+            {
+                pictureBox8.Show();
+            }
+            else
+            {
+                pictureBox8.Hide();
+            }*/
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
             if (quartoSelecionado != 1) 
             { 
                 quartoSelecionado = 1;
@@ -172,7 +182,9 @@ namespace Hotel_Luxe
             }
             else if (quartoSelecionado == 5)
             {
-
+                Form10 form10 = new Form10();
+                form10.Show();
+                this.Hide();
             }
             else if (quartoSelecionado == 6)
             {
