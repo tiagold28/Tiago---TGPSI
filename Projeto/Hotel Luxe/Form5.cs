@@ -17,15 +17,7 @@ namespace Hotel_Luxe
         public Form5()
         {
             InitializeComponent();
-            /*int hotel = Form4.hotelSelecionado;
-            if (hotel == 1)
-            {
-                pictureBox8.Show();
-            }
-            else
-            {
-                pictureBox8.Hide();
-            }*/
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
