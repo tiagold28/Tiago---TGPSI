@@ -148,6 +148,12 @@ namespace Hotel_Luxe
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            if (quartoSelecionado == 0)
+            {
+                MessageBox.Show("Por favor, selecione um quarto primeiro!");
+                return;
+            }
+
             if (quartoSelecionado == 1)
             {
                 Form6 form6 = new Form6();
@@ -180,7 +186,9 @@ namespace Hotel_Luxe
             }
             else if (quartoSelecionado == 6)
             {
-
+                Form11 form11 = new Form11();
+                form11.Show();
+                this.Hide();
             }
         }
 

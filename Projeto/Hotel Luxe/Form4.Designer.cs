@@ -115,6 +115,7 @@
             this.label6.Size = new System.Drawing.Size(240, 42);
             this.label6.TabIndex = 10;
             this.label6.Text = "Hotel ⭐⭐⭐⭐⭐";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox6
             // 
@@ -130,9 +131,9 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Hotel_Luxe.Properties.Resources._5_estrelas;
-            this.pictureBox5.Location = new System.Drawing.Point(1078, 183);
+            this.pictureBox5.Location = new System.Drawing.Point(1074, 183);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(237, 295);
+            this.pictureBox5.Size = new System.Drawing.Size(241, 295);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
@@ -142,7 +143,7 @@
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Hotel_Luxe.Properties.Resources._4_estrelas;
-            this.pictureBox4.Location = new System.Drawing.Point(810, 183);
+            this.pictureBox4.Location = new System.Drawing.Point(808, 183);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(250, 295);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

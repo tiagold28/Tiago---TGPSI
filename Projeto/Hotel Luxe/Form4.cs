@@ -21,7 +21,6 @@ namespace Hotel_Luxe
 
         private void pictureBox1_Click(object sender, EventArgs e) 
         {
-            
             if (hotelSelecionado != 1)
             {
                 hotelSelecionado = 1;
@@ -132,6 +131,11 @@ namespace Hotel_Luxe
             Form5 form5 = new Form5();
             form5.Show();
             this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
