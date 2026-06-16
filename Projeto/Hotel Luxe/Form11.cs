@@ -28,5 +28,10 @@ namespace Hotel_Luxe
             form5.Show();
             this.Hide();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

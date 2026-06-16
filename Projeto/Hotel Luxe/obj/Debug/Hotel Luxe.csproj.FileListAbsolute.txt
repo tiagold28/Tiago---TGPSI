@@ -21,3 +21,4 @@ C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form9.resources
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form10.resources
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form11.resources
+C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form12.resources
