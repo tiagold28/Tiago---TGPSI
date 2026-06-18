@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +47,24 @@
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -47,12 +75,8 @@
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|c:\\users\\2224104\\onedrive - escola digital\\2\u00BA ano\\psi - carla macedo\\hotel luxe\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C90EA2-05B3-45F6-9500-700F2FE0A88C}|Hotel Luxe.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,11 +102,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T09:03:56.571Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwIcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T08:48:43.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T07:42:29.596Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwBMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T07:44:01.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -102,43 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form12.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form12.cs",
-              "RelativeDocumentMoniker": "Form12.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form12.cs [Design]",
-              "RelativeToolTip": "Form12.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T09:03:24.925Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form11.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form11.cs",
-              "RelativeDocumentMoniker": "Form11.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form11.cs [Design]",
-              "RelativeToolTip": "Form11.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T08:17:13.015Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form6.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs",
-              "RelativeDocumentMoniker": "Form6.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs [Design]",
-              "RelativeToolTip": "Form6.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T09:03:29.271Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Form5.cs [Design]",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form5.cs",
               "RelativeDocumentMoniker": "Form5.cs",
@@ -150,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Form4.cs",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
@@ -163,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
@@ -181,14 +211,14 @@
               "RelativeDocumentMoniker": "Form11.cs",
               "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form11.cs",
               "RelativeToolTip": "Form11.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-09T08:37:51.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Form9.cs",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form9.cs",
               "RelativeDocumentMoniker": "Form9.cs",
@@ -201,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Form8.cs",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form8.cs",
               "RelativeDocumentMoniker": "Form8.cs",
@@ -214,82 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form9.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form9.cs",
-              "RelativeDocumentMoniker": "Form9.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form9.cs [Design]",
-              "RelativeToolTip": "Form9.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T09:28:26.284Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Form5.cs",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form5.cs",
-              "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form5.cs",
-              "RelativeToolTip": "Form5.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T09:01:25.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form10.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs",
-              "RelativeDocumentMoniker": "Form10.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs [Design]",
-              "RelativeToolTip": "Form10.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T08:24:55.772Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Form10.cs",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs",
-              "RelativeDocumentMoniker": "Form10.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs",
-              "RelativeToolTip": "Form10.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T09:08:24.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form6.cs",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs",
-              "RelativeDocumentMoniker": "Form6.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs",
-              "RelativeToolTip": "Form6.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T09:40:18.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Form7.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form7.cs",
-              "RelativeDocumentMoniker": "Form7.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form7.cs [Design]",
-              "RelativeToolTip": "Form7.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T10:15:51.551Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "Form7.cs",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form7.cs",
               "RelativeDocumentMoniker": "Form7.cs",
@@ -302,19 +257,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form8.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form8.cs",
-              "RelativeDocumentMoniker": "Form8.cs",
-              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form8.cs [Design]",
-              "RelativeToolTip": "Form8.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Form12.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form12.cs",
+              "RelativeDocumentMoniker": "Form12.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form12.cs [Design]",
+              "RelativeToolTip": "Form12.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T10:12:19.003Z",
+              "WhenOpened": "2026-06-16T09:03:24.925Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
+              "Title": "Form10.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs",
+              "RelativeDocumentMoniker": "Form10.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs [Design]",
+              "RelativeToolTip": "Form10.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:24:55.772Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -324,6 +291,103 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T09:05:52.037Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form6.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs",
+              "RelativeDocumentMoniker": "Form6.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs [Design]",
+              "RelativeToolTip": "Form6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T09:03:29.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form11.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form11.cs",
+              "RelativeDocumentMoniker": "Form11.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form11.cs [Design]",
+              "RelativeToolTip": "Form11.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T08:17:13.015Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form9.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form9.cs",
+              "RelativeDocumentMoniker": "Form9.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form9.cs [Design]",
+              "RelativeToolTip": "Form9.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T09:28:26.284Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form5.cs",
+              "RelativeToolTip": "Form5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T09:01:25.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form10.cs",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs",
+              "RelativeDocumentMoniker": "Form10.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form10.cs",
+              "RelativeToolTip": "Form10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:08:24.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form6.cs",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs",
+              "RelativeDocumentMoniker": "Form6.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form6.cs",
+              "RelativeToolTip": "Form6.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T09:40:18.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Form7.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form7.cs",
+              "RelativeDocumentMoniker": "Form7.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form7.cs [Design]",
+              "RelativeToolTip": "Form7.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:15:51.551Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Form8.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form8.cs",
+              "RelativeDocumentMoniker": "Form8.cs",
+              "ToolTip": "C:\\Users\\2224104\\OneDrive - Escola Digital\\2\u00BA Ano\\PSI - Carla Macedo\\Hotel Luxe\\Form8.cs [Design]",
+              "RelativeToolTip": "Form8.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:12:19.003Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

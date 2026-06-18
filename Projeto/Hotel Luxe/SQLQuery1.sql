@@ -1,0 +1,9 @@
+CREATE TABLE Utilizadores
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nome NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(150) NOT NULL UNIQUE,
+    Senha NVARCHAR(255) NOT NULL
+);
+
+SELECT * FROM Utilizadores;
