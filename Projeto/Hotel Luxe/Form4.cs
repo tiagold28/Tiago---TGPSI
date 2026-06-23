@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,10 +14,12 @@ namespace Hotel_Luxe
     public partial class Form4 : Form
     {
         public static int hotelSelecionado = 0;
+        string emailCliente;
 
-        public Form4()
+        public Form4(string email)
         {
             InitializeComponent();
+            emailCliente = email;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e) 
@@ -128,7 +131,7 @@ namespace Hotel_Luxe
                 return;
             }
 
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5(emailCliente);
             form5.Show();
             this.Hide();
         }
@@ -137,5 +140,11 @@ namespace Hotel_Luxe
         {
 
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

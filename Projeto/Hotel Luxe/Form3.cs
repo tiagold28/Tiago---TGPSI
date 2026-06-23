@@ -16,12 +16,14 @@ namespace Hotel_Luxe
 {
     public partial class Form3 : Form
     {
+        
         SqlConnection conectar = new SqlConnection(
             @"Server=(localdb)\MSSQLLocalDB;Database=Projeto;Trusted_Connection=True;");
-
+        
         public Form3()
         {
             InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -183,7 +185,7 @@ namespace Hotel_Luxe
 
                 MessageBox.Show("Conta criada com sucesso!");
 
-                Form4 form4 = new Form4();
+                Form4 form4 = new Form4(email);
                 form4.Show();
                 this.Hide();
             }

@@ -12,9 +12,11 @@ namespace Hotel_Luxe
 {
     public partial class Form6 : Form
     {
-        public Form6()
+        string emailCliente;
+        public Form6(string email)
         {
             InitializeComponent();
+            emailCliente = email;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -39,7 +41,7 @@ namespace Hotel_Luxe
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5(emailCliente);
             form5.Show();
             this.Hide();
         }

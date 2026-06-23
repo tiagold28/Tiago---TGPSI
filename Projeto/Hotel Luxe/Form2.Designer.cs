@@ -62,6 +62,7 @@
             this.label1.Size = new System.Drawing.Size(118, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -225,12 +226,12 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(758, 100);
+            this.label7.Location = new System.Drawing.Point(796, 113);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 28;
             this.label7.Text = "label7";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // Form2
             // 

@@ -161,7 +161,7 @@ namespace Hotel_Luxe
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Information);
 
-                            Form4 form4 = new Form4();
+                            Form4 form4 = new Form4(email);
                             form4.Show();
                             this.Hide();
                         }
@@ -188,14 +188,24 @@ namespace Hotel_Luxe
 
         private void label7_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
-            this.Hide();
+            
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            Form12 form12 = new Form12();
+            form12.Show();
+            this.Hide();
         }
     }
 }

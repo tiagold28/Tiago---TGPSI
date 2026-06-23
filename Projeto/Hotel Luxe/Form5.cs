@@ -2,199 +2,212 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Hotel_Luxe
 {
     public partial class Form5 : Form
     {
         int quartoSelecionado = 0;
+        string emailCliente;
 
-        public Form5()
+        SqlConnection conexao = new SqlConnection(
+        @"Server=(localdb)\MSSQLLocalDB;Database=Projeto;Trusted_Connection=True;");
+
+        public Form5(string email)
         {
             InitializeComponent();
-
+            emailCliente = email;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        // =========================
+        // VERIFICAÇÕES
+        // =========================
+
+        bool QuartoDisponivel(int idQuarto)
         {
+            SqlCommand cmd = new SqlCommand(
+                "SELECT Disponivel FROM Quartos WHERE IdQuarto = @id", conexao);
 
-            if (quartoSelecionado != 1) 
-            { 
-                quartoSelecionado = 1;
-                pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-                pictureBox2.BorderStyle = BorderStyle.None;
-                pictureBox3.BorderStyle = BorderStyle.None;
-                pictureBox4.BorderStyle = BorderStyle.None;
-                pictureBox5.BorderStyle = BorderStyle.None;
-                pictureBox7.BorderStyle = BorderStyle.None;
-            }
-            else if (quartoSelecionado == 1)
-            {
-                pictureBox1.BorderStyle = BorderStyle.None;
-                quartoSelecionado = 0;
-            }
-            
+            cmd.Parameters.AddWithValue("@id", idQuarto);
+
+            conexao.Open();
+            object result = cmd.ExecuteScalar();
+            conexao.Close();
+
+            return Convert.ToBoolean(result);
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        bool SouDonoDaReserva(int idQuarto)
         {
-            if (quartoSelecionado != 5)
-            {
-                quartoSelecionado = 5;
-                pictureBox1.BorderStyle = BorderStyle.None;
-                pictureBox2.BorderStyle = BorderStyle.None;
-                pictureBox3.BorderStyle = BorderStyle.None;
-                pictureBox4.BorderStyle = BorderStyle.Fixed3D;
-                pictureBox5.BorderStyle = BorderStyle.None;
-                pictureBox7.BorderStyle = BorderStyle.None;
-            }
-            else if (quartoSelecionado == 5)
-            {
-                pictureBox4.BorderStyle = BorderStyle.None;
-                quartoSelecionado = 0;
-            }
+            SqlCommand cmd = new SqlCommand(@"
+                SELECT COUNT(*) 
+                FROM Reservas 
+                WHERE IdQuarto = @Quarto AND EmailCliente = @Email
+            ", conexao);
+
+            cmd.Parameters.AddWithValue("@Quarto", idQuarto);
+            cmd.Parameters.AddWithValue("@Email", emailCliente);
+
+            conexao.Open();
+            int result = (int)cmd.ExecuteScalar();
+            conexao.Close();
+
+            return result > 0;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        // =========================
+        // SELEÇÃO DE QUARTO (CORRIGIDO)
+        // =========================
+
+        private void SelecionarQuarto(int id, PictureBox pb)
         {
-           
+            bool disponivel = QuartoDisponivel(id);
+            bool meuQuarto = SouDonoDaReserva(id);
+
+            // ❌ bloqueia apenas se for de outro cliente
+            if (!disponivel && !meuQuarto)
+            {
+                MessageBox.Show("❌ Este quarto está ocupado por outro cliente!");
+                return;
+            }
+
+            quartoSelecionado = id;
+
+            pictureBox1.BorderStyle = BorderStyle.None;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox7.BorderStyle = BorderStyle.None;
+
+            pb.BorderStyle = BorderStyle.Fixed3D;
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            if (quartoSelecionado != 6)
-            {
-                quartoSelecionado = 6;
-                pictureBox1.BorderStyle = BorderStyle.None;
-                pictureBox2.BorderStyle = BorderStyle.None;
-                pictureBox3.BorderStyle = BorderStyle.None;
-                pictureBox4.BorderStyle = BorderStyle.None;
-                pictureBox5.BorderStyle = BorderStyle.None;
-                pictureBox7.BorderStyle = BorderStyle.Fixed3D;
-            }
-            else if (quartoSelecionado == 6)
-            {
-                pictureBox7.BorderStyle = BorderStyle.None;
-                quartoSelecionado = 0;
-            }
-        }
+        private void pictureBox1_Click(object sender, EventArgs e) => SelecionarQuarto(1, pictureBox1);
+        private void pictureBox2_Click(object sender, EventArgs e) => SelecionarQuarto(2, pictureBox2);
+        private void pictureBox5_Click(object sender, EventArgs e) => SelecionarQuarto(3, pictureBox5);
+        private void pictureBox3_Click(object sender, EventArgs e) => SelecionarQuarto(4, pictureBox3);
+        private void pictureBox4_Click(object sender, EventArgs e) => SelecionarQuarto(5, pictureBox4);
+        private void pictureBox7_Click(object sender, EventArgs e) => SelecionarQuarto(6, pictureBox7);
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            if (quartoSelecionado != 2)
-            {
-                quartoSelecionado = 2;
-                pictureBox1.BorderStyle = BorderStyle.None;
-                pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-                pictureBox3.BorderStyle = BorderStyle.None;
-                pictureBox4.BorderStyle = BorderStyle.None;
-                pictureBox5.BorderStyle = BorderStyle.None;
-                pictureBox7.BorderStyle = BorderStyle.None;
-            }
-            else if (quartoSelecionado == 2)
-            {
-                pictureBox2.BorderStyle = BorderStyle.None;
-                quartoSelecionado = 0;
-            }
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            if (quartoSelecionado != 3)
-            {
-                quartoSelecionado = 3;
-                pictureBox1.BorderStyle = BorderStyle.None;
-                pictureBox2.BorderStyle = BorderStyle.None;
-                pictureBox3.BorderStyle = BorderStyle.None;
-                pictureBox4.BorderStyle = BorderStyle.None;
-                pictureBox5.BorderStyle = BorderStyle.Fixed3D;
-                pictureBox7.BorderStyle = BorderStyle.None;
-            }
-            else if (quartoSelecionado == 3)
-            {
-                pictureBox5.BorderStyle = BorderStyle.None;
-                quartoSelecionado = 0;
-            }
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            if (quartoSelecionado != 4)
-            {
-                quartoSelecionado = 4;
-                pictureBox1.BorderStyle = BorderStyle.None;
-                pictureBox2.BorderStyle = BorderStyle.None;
-                pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-                pictureBox4.BorderStyle = BorderStyle.None;
-                pictureBox5.BorderStyle = BorderStyle.None;
-                pictureBox7.BorderStyle = BorderStyle.None;
-            }
-            else if (quartoSelecionado == 4)
-            {
-                pictureBox3.BorderStyle = BorderStyle.None;
-                quartoSelecionado = 0;
-            }
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
+        // =========================
+        // CONTINUAR (RESERVA + ABRIR FORM)
+        // =========================
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (quartoSelecionado == 0)
             {
-                MessageBox.Show("Por favor, selecione um quarto primeiro!");
+                MessageBox.Show("Selecione um quarto!");
                 return;
             }
 
-            if (quartoSelecionado == 1)
+            bool disponivel = QuartoDisponivel(quartoSelecionado);
+            bool meuQuarto = SouDonoDaReserva(quartoSelecionado);
+
+            // ❌ só bloqueia se for de outro cliente
+            if (!disponivel && !meuQuarto)
             {
-                Form6 form6 = new Form6();
-                form6.Show();
-                this.Hide();
+                MessageBox.Show("❌ Este quarto está ocupado por outro cliente!");
+                return;
             }
-            else if (quartoSelecionado == 2)
+
+            // ✔ se ainda não é reserva tua → cria reserva
+            if (!meuQuarto)
             {
-                Form7 form7 = new Form7();
-                form7.Show();
-                this.Hide();
+                SqlCommand cmd = new SqlCommand(@"
+                    INSERT INTO Reservas (EmailCliente, IdQuarto, DataReserva)
+                    VALUES (@Email, @Quarto, GETDATE());
+
+                    UPDATE Quartos
+                    SET Disponivel = 0
+                    WHERE IdQuarto = @Quarto;
+                ", conexao);
+
+                cmd.Parameters.AddWithValue("@Email", emailCliente);
+                cmd.Parameters.AddWithValue("@Quarto", quartoSelecionado);
+
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                conexao.Close();
             }
-            else if (quartoSelecionado == 3)
-            {
-                Form8 form8 = new Form8();
-                form8.Show();
-                this.Hide();
-            }
-            else if (quartoSelecionado == 4)
-            {
-                Form9 form9 = new Form9();
-                form9.Show();
-                this.Hide();
-            }
-            else if (quartoSelecionado == 5)
-            {
-                Form10 form10 = new Form10();
-                form10.Show();
-                this.Hide();
-            }
-            else if (quartoSelecionado == 6)
-            {
-                Form11 form11 = new Form11();
-                form11.Show();
-                this.Hide();
-            }
+
+            AbrirFormQuarto();
         }
+
+        // =========================
+        // ABRIR FORM DO QUARTO
+        // =========================
+
+        private void AbrirFormQuarto()
+        {
+            if (quartoSelecionado == 1)
+                new Form6(emailCliente).Show();
+            else if (quartoSelecionado == 2)
+                new Form7(emailCliente).Show();
+            else if (quartoSelecionado == 3)
+                new Form8(emailCliente).Show();
+            else if (quartoSelecionado == 4)
+                new Form9(emailCliente).Show();
+            else if (quartoSelecionado == 5)
+                new Form10(emailCliente).Show();
+            else if (quartoSelecionado == 6)
+                new Form11(emailCliente).Show();
+
+            this.Hide();
+        }
+
+        // =========================
+        // CANCELAR RESERVA
+        // =========================
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            if (quartoSelecionado == 0)
+            {
+                MessageBox.Show("Selecione o quarto que quer cancelar!");
+                return;
+            }
+
+            if (!SouDonoDaReserva(quartoSelecionado))
+            {
+                MessageBox.Show("❌ Não podes cancelar esta reserva (não és o dono)!");
+                return;
+            }
+
+            SqlCommand cmd = new SqlCommand(@"
+                DELETE FROM Reservas 
+                WHERE EmailCliente = @Email AND IdQuarto = @Quarto;
+
+                UPDATE Quartos 
+                SET Disponivel = 1 
+                WHERE IdQuarto = @Quarto;
+            ", conexao);
+
+            cmd.Parameters.AddWithValue("@Email", emailCliente);
+            cmd.Parameters.AddWithValue("@Quarto", quartoSelecionado);
+
+            conexao.Open();
+            cmd.ExecuteNonQuery();
+            conexao.Close();
+
+            MessageBox.Show("✔ Reserva cancelada com sucesso!");
+        }
+
+        // =========================
+        // VOLTAR
+        // =========================
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Form4 form4 = new Form4(emailCliente);
             form4.Show();
             this.Hide();
         }
