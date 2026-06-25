@@ -165,6 +165,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(180, 69);
             this.guna2Button2.TabIndex = 11;
             this.guna2Button2.Text = "Continuar";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // Form6
             // 

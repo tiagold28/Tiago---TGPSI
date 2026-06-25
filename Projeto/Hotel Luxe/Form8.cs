@@ -35,5 +35,12 @@ namespace Hotel_Luxe
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Form12 form12 = new Form12();
+            form12.Show();
+            this.Hide();
+        }
     }
 }

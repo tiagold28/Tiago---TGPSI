@@ -148,6 +148,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(190, 63);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "Continuar";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button2
             // 
