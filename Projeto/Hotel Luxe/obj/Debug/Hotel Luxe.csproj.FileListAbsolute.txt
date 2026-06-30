@@ -22,3 +22,27 @@ C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form10.resources
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form11.resources
 C:\Users\2224104\OneDrive - Escola Digital\2º Ano\PSI - Carla Macedo\Hotel Luxe\obj\Debug\Hotel_Luxe.Form12.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\bin\Debug\Hotel Luxe.exe.config
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\bin\Debug\Hotel Luxe.exe
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\bin\Debug\Hotel Luxe.pdb
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\bin\Debug\Guna.UI2.dll
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.AssemblyReference.cache
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.exe.config
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form1.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form10.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form11.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form12.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form2.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form3.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form4.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form5.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form6.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form7.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form8.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Form9.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel_Luxe.Properties.Resources.resources
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.GenerateResource.cache
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.CoreCompileInputs.cache
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.csproj.Up2Date
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.exe
+C:\Users\2224104\OneDrive - Escola Digital\1º Ano\Ambiente de Trabalho\Tiago---TGPSI\Projeto\Hotel Luxe\obj\Debug\Hotel Luxe.pdb

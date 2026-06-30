@@ -17,6 +17,7 @@ namespace Hotel_Luxe
     public partial class Form3 : Form
     {
         
+        
         SqlConnection conectar = new SqlConnection(
             @"Server=(localdb)\MSSQLLocalDB;Database=Projeto;Trusted_Connection=True;");
         
@@ -24,6 +25,7 @@ namespace Hotel_Luxe
         {
             InitializeComponent();
             
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -38,8 +40,8 @@ namespace Hotel_Luxe
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            textBox5.UseSystemPasswordChar = true; // começa escondida
-            checkBox1.Checked = false; // começa desmarcado
+            textBox5.UseSystemPasswordChar = true;
+            checkBox1.Checked = false;
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -113,6 +115,7 @@ namespace Hotel_Luxe
         {
 
             string nome = textBox3.Text.Trim();
+            
             string email = textBox4.Text.Trim();
             string password = textBox5.Text;
 
@@ -153,7 +156,6 @@ namespace Hotel_Luxe
                 {
                     conectar.Open();
 
-                    // Verifica se o email já existe
                     string verificar = "SELECT COUNT(*) FROM Utilizadores WHERE Email = @Email";
 
                     using (SqlCommand cmdVerificar = new SqlCommand(verificar, conectar))
@@ -169,7 +171,6 @@ namespace Hotel_Luxe
                         }
                     }
 
-                    // Inserir utilizador
                     string sql = @"INSERT INTO Utilizadores (Nome, Email, Senha)
                            VALUES (@Nome, @Email, @Senha)";
 
@@ -197,6 +198,7 @@ namespace Hotel_Luxe
 
         private void label3_Click(object sender, EventArgs e)
         {
+           
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();

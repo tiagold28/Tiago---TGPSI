@@ -1,0 +1,6 @@
+SELECT TOP (1000) [Id]
+      ,[Nome]
+      ,[Email]
+      ,[Senha]
+      ,[DataCriacao]
+  FROM [Projeto].[dbo].[Utilizadores]

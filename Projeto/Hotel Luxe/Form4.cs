@@ -15,11 +15,13 @@ namespace Hotel_Luxe
     {
         public static int hotelSelecionado = 0;
         string emailCliente;
+      
 
         public Form4(string email)
         {
             InitializeComponent();
             emailCliente = email;
+        
         }
 
         private void pictureBox1_Click(object sender, EventArgs e) 
@@ -144,6 +146,13 @@ namespace Hotel_Luxe
         private void Form4_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
         }
     }
 }

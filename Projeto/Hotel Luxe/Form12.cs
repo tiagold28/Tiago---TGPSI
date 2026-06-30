@@ -13,13 +13,15 @@ namespace Hotel_Luxe
 {
     public partial class Form12 : Form
     {
-        public Form12()
+        string emailCliente;
+        public Form12(string email)
         {
             InitializeComponent();
+            emailCliente = email;
+          
 
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
 
-            // Subscreve os eventos necessários para o cálculo em tempo real
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             this.guna2DateTimePicker2.ValueChanged += new System.EventHandler(this.guna2DateTimePicker2_ValueChanged);
         }
@@ -34,7 +36,6 @@ namespace Hotel_Luxe
             guna2DateTimePicker2.MaxDate =
                 guna2DateTimePicker1.Value.AddDays(90);
 
-            // Executa o cálculo inicial assim que o formulário é carregado
             CalcularEstadia();
         }
 
@@ -46,25 +47,21 @@ namespace Hotel_Luxe
             guna2DateTimePicker2.MaxDate =
                 guna2DateTimePicker1.Value.AddDays(90);
 
-            // Atualiza o valor se a data de início mudar
             CalcularEstadia();
         }
 
         private void guna2DateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
-            // Atualiza o valor se a data de fim mudar
             CalcularEstadia();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Atualiza o valor se o regime de alojamento mudar
             CalcularEstadia();
         }
 
         private void CalcularEstadia()
         {
-            // Validação de segurança para evitar exceções de referência nula
             if (guna2DateTimePicker1 == null || guna2DateTimePicker2 == null || comboBox1 == null || label6 == null)
             {
                 return;
@@ -73,20 +70,17 @@ namespace Hotel_Luxe
             DateTime dataCheckIn = guna2DateTimePicker1.Value.Date;
             DateTime dataCheckOut = guna2DateTimePicker2.Value.Date;
 
-            // Impede cálculos incorretos se as datas forem inconsistentes
             if (dataCheckOut <= dataCheckIn)
             {
                 label6.Text = "0.00€";
                 return;
             }
 
-            // Calcula a diferença exata em dias (noites)
             int noites = (dataCheckOut - dataCheckIn).Days;
 
             double precoPorNoite = 0;
             string regimeSelecionado = comboBox1.SelectedItem?.ToString();
 
-            // Avalia o regime selecionado. Altera os textos caso uses termos diferentes na tua ComboBox
             switch (regimeSelecionado)
             {
                 case "Apenas Quarto":
@@ -103,7 +97,6 @@ namespace Hotel_Luxe
                     break;
             }
 
-            // Realiza a operação matemática e formata a string com duas casas decimais
             double precoTotal = noites * precoPorNoite;
             label6.Text = $"{precoTotal:F2}€";
         }
@@ -127,7 +120,7 @@ namespace Hotel_Luxe
 
             decimal precoDiario = 0;
             string regimeEscolhido = comboBox1.Text;
-            int nomeCliente = 0;
+            string nomeCliente = emailCliente;
 
             switch (regimeEscolhido)
             {
@@ -186,6 +179,11 @@ namespace Hotel_Luxe
                     }
                 }
             }
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

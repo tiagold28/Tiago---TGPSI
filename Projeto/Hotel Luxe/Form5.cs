@@ -16,6 +16,7 @@ namespace Hotel_Luxe
     {
         int quartoSelecionado = 0;
         string emailCliente;
+      
 
         SqlConnection conexao = new SqlConnection(
         @"Server=(localdb)\MSSQLLocalDB;Database=Projeto;Trusted_Connection=True;");
@@ -24,11 +25,9 @@ namespace Hotel_Luxe
         {
             InitializeComponent();
             emailCliente = email;
-        }
+           
 
-        // =========================
-        // VERIFICAÇÕES
-        // =========================
+        }
 
         bool QuartoDisponivel(int idQuarto)
         {
@@ -62,16 +61,11 @@ namespace Hotel_Luxe
             return result > 0;
         }
 
-        // =========================
-        // SELEÇÃO DE QUARTO (CORRIGIDO)
-        // =========================
-
         private void SelecionarQuarto(int id, PictureBox pb)
         {
             bool disponivel = QuartoDisponivel(id);
             bool meuQuarto = SouDonoDaReserva(id);
 
-            // ❌ bloqueia apenas se for de outro cliente
             if (!disponivel && !meuQuarto)
             {
                 MessageBox.Show("❌ Este quarto está ocupado por outro cliente!");
@@ -97,10 +91,6 @@ namespace Hotel_Luxe
         private void pictureBox4_Click(object sender, EventArgs e) => SelecionarQuarto(5, pictureBox4);
         private void pictureBox7_Click(object sender, EventArgs e) => SelecionarQuarto(6, pictureBox7);
 
-        // =========================
-        // CONTINUAR (RESERVA + ABRIR FORM)
-        // =========================
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (quartoSelecionado == 0)
@@ -112,14 +102,12 @@ namespace Hotel_Luxe
             bool disponivel = QuartoDisponivel(quartoSelecionado);
             bool meuQuarto = SouDonoDaReserva(quartoSelecionado);
 
-            // ❌ só bloqueia se for de outro cliente
             if (!disponivel && !meuQuarto)
             {
                 MessageBox.Show("❌ Este quarto está ocupado por outro cliente!");
                 return;
             }
 
-            // ✔ se ainda não é reserva tua → cria reserva
             if (!meuQuarto)
             {
                 SqlCommand cmd = new SqlCommand(@"
@@ -142,10 +130,6 @@ namespace Hotel_Luxe
             AbrirFormQuarto();
         }
 
-        // =========================
-        // ABRIR FORM DO QUARTO
-        // =========================
-
         private void AbrirFormQuarto()
         {
             if (quartoSelecionado == 1)
@@ -163,10 +147,6 @@ namespace Hotel_Luxe
 
             this.Hide();
         }
-
-        // =========================
-        // CANCELAR RESERVA
-        // =========================
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
@@ -201,15 +181,16 @@ namespace Hotel_Luxe
             MessageBox.Show("✔ Reserva cancelada com sucesso!");
         }
 
-        // =========================
-        // VOLTAR
-        // =========================
-
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4(emailCliente);
             form4.Show();
             this.Hide();
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

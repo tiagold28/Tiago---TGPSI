@@ -13,10 +13,12 @@ namespace Hotel_Luxe
     public partial class Form9 : Form
     {
         string emailCliente;
+        
         public Form9(string email)
         {
             InitializeComponent();
             emailCliente = email;
+
 
         }
 
@@ -34,9 +36,14 @@ namespace Hotel_Luxe
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form12 form12 = new Form12();
+            Form12 form12 = new Form12(emailCliente);
             form12.Show();
             this.Hide();
+        }
+
+        private void Form9_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

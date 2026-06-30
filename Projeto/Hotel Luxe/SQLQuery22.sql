@@ -1,0 +1,5 @@
+SELECT TOP (1000) [IdReserva]
+      ,[EmailCliente]
+      ,[IdQuarto]
+      ,[DataReserva]
+  FROM [Projeto].[dbo].[Reservas]

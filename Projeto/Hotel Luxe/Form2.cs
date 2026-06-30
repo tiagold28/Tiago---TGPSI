@@ -16,9 +16,11 @@ namespace Hotel_Luxe
 {
     public partial class Form2 : Form
     {
+        
         public Form2()
         {
             InitializeComponent();
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -38,8 +40,8 @@ namespace Hotel_Luxe
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            textBox2.UseSystemPasswordChar = true; // começa escondida
-            checkBox1.Checked = false; // começa desmarcado
+            textBox2.UseSystemPasswordChar = true;
+            checkBox1.Checked = false;
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -150,6 +152,7 @@ namespace Hotel_Luxe
                     {
                         cmd.Parameters.AddWithValue("@Email", email);
                         cmd.Parameters.AddWithValue("@Senha", password);
+                        
 
                         int resultado = (int)cmd.ExecuteScalar();
 
@@ -199,13 +202,6 @@ namespace Hotel_Luxe
         private void label1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void label7_Click_1(object sender, EventArgs e)
-        {
-            Form12 form12 = new Form12();
-            form12.Show();
-            this.Hide();
         }
     }
 }
